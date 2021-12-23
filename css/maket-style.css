@@ -4,7 +4,9 @@ body {
 	background: black;
 	font:normal 75% Arial, Helvetica, sans-serif;
 }
-
+a {
+	text-decoration: none;
+}
 .headline {
 	height: 80vh;
 	width: 100%;
@@ -86,7 +88,9 @@ body {
 	margin-top: 40%;
 }
 .btn {
-	display: inline-block;	
+	/*display: inline-block;*/
+	text-align: center;
+	align-self: center;	
 	
 	box-sizing: border-box;
 	padding: 0 25px;
@@ -177,6 +181,7 @@ body {
  	padding-bottom: 2%;
  	padding-top: 2%;
  	font-size: x-large;	
+ 	/*backdrop-filter: blur(2px);*/
 }
 
 .aboutline img {
@@ -242,6 +247,7 @@ body {
 	font-size: 54px;
 	border-radius: 55px;
 }
+
 .contacts {
 	height: 10vh;
 	width: 100%;
